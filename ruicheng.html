@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>王睿成 - 科学家个人档案</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ background:#080b12;
+ color:#eef3fb;
+ font-family:Arial,"Microsoft YaHei",sans-serif;
+ line-height:1.8;
+}
+nav{
+ position:sticky;top:0;
+ background:#101725;
+ padding:18px 7%;
+ display:flex;
+ justify-content:space-between;
+ border-bottom:1px solid #30394b;
+ z-index:10;
+}
+.logo{font-weight:bold;letter-spacing:2px}
+.logo span{color:#ef4444}
+nav a{color:#aaa;text-decoration:none;margin-left:18px}
+.hero{
+ min-height:550px;
+ display:grid;
+ grid-template-columns:1.2fr .8fr;
+ align-items:center;
+ gap:40px;
+ padding:80px 9%;
+}
+.hero h1{font-size:75px;line-height:1.2}
+.hero h1 span{color:#e8c77a}
+.hero p{color:#aab4c5;font-size:17px}
+.portrait img{
+ width:100%;
+ max-width:370px;
+ height:420px;
+ object-fit:cover;
+ border-radius:15px;
+ border:1px solid #444;
+}
+.btn{
+ display:inline-block;
+ padding:12px 23px;
+ margin-top:20px;
+ background:#dc3636;
+ color:white;
+ text-decoration:none;
+ border-radius:7px;
+}
+main{max-width:1100px;margin:auto;padding:20px 7%}
+section{padding:65px 0;border-top:1px solid #283142}
+.kicker{color:#ef4444;letter-spacing:3px}
+h2{font-size:32px}
+.description{color:#aab4c5}
+.grid{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:18px;
+}
+.card{
+ background:#141e2d;
+ border:1px solid #303b4c;
+ border-radius:12px;
+ padding:22px;
+}
+.card h3{color:#e8c77a}
+.card p{color:#aab4c5;font-size:14px}
+.equation{
+ background:#111827;
+ padding:22px;
+ border-radius:10px;
+ font-size:25px;
+ color:#e8c77a;
+}
+.notice{
+ background:#302719;
+ border:1px solid #80652f;
+ padding:18px;
+ border-radius:10px;
+ color:#f2dfb6;
+}
+.timeline{
+ border-left:2px solid #e8c77a;
+ padding-left:25px;
+}
+.timeline div{margin:25px 0}
+footer{
+ text-align:center;
+ padding:35px;
+ color:#8995a8;
+ border-top:1px solid #30394b;
+}
+@media(max-width:700px){
+ .hero{grid-template-columns:1fr;text-align:center;padding:50px 7%}
+ .hero h1{font-size:52px}
+ .portrait img{height:350px}
+ .grid{grid-template-columns:1fr}
+ nav .links{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+ <div class="logo">WRC<span>.</span> SCIENCE</div>
+ <div class="links">
+  <a href="#about">个人简介</a>
+  <a href="#research">研究方向</a>
+  <a href="#works">代表作品</a>
+  <a href="#record">研究记录</a>
+ </div>
+</nav>
+
+<header class="hero">
+ <div>
+  <div class="kicker">PERSONAL SCIENTIFIC PROFILE</div>
+  <h1>王睿成<br><span>科学探索者</span></h1>
+  <p>
+   保持好奇，提出问题，用实验检验想法。
+   这里记录王睿成围绕科学、技术与自然现象展开的探索。
+  </p>
+  <a class="btn" href="#about">探索科学档案</a>
+ </div>
+
+ <div class="portrait">
+  <img src="portrait.jpg" alt="王睿成照片">
+ </div>
+</header>
+
+<main>
+
+<section id="about">
+ <div class="kicker">01 / ABOUT</div>
+ <h2>个人简介</h2>
+ <p class="description">
+ 王睿成（原文件署名：睿成·王），英文名 Eric-Wang。
+ 根据原始文档，关注科学探索、化学概念和计算机技术。
+ </p>
+
+ <div class="grid">
+  <div class="card">
+   <h3>研究者档案</h3>
+   <p>姓名：王睿成</p>
+   <p>英文署名：Eric-Wang</p>
+   <p>关注领域：科学、技术、化学</p>
+  </div>
+
+  <div class="card">
+   <h3>探索方式</h3>
+   <p>提出问题、建立假设、寻找证据、检验结论。</p>
+  </div>
+
+  <div class="card">
+   <h3>科学态度</h3>
+   <p>尊重事实，重视实验，接受质疑，持续修正。</p>
+  </div>
+ </div>
+</section>
+
+<section id="research">
+ <div class="kicker">02 / RESEARCH</div>
+ <h2>研究主题：氧气燃烧论</h2>
+
+ <p class="description">
+ 原稿提出了所谓的睿成定理和相关反应表达式。
+ </p>
+
+ <div class="card">
+  <h3>睿成定理（原稿表述）</h3>
+  <p>一个氧分子在明火加热和67催化剂的作用下会与另一个氧分子发生反应，结合成两个氧分子。</p>
+ </div>
+
+ <h3>睿成方程式（原稿）</h3>
+ <div class="equation">
+  O₂ + O₂ → 2O₂
+ </div>
+
+ <h3>67催化剂</h3>
+ <p class="description">
+ 原稿将其分子式写作：
+ </p>
+ <div class="equation">
+  C₆₇H₆₇O₆₇N₆₇S₆₇
+ </div>
+
+ <div class="notice">
+  科学说明：原稿第3页指出相关公式照搬了臭氧生成公式，
+  第4页也承认所谓67催化剂并不存在。
+  因此这里将其作为研究手稿中的构想展示，
+  不将其表述为已经得到科学验证的理论。
+ </div>
+</section>
+
+<section id="works">
+ <div class="kicker">03 / SELECTED WORKS</div>
+ <h2>代表作品</h2>
+
+ <div class="grid">
+  <div class="card">
+   <h3>《氧气燃烧论》</h3>
+   <p>关于氧气与化学反应的探索性手稿。</p>
+  </div>
+
+  <div class="card">
+   <h3>《电脑维修方法》</h3>
+   <p>计算机技术相关主题。</p>
+  </div>
+
+  <div class="card">
+   <h3>《电池电荷存在原因》</h3>
+   <p>电池和电荷相关研究主题。</p>
+  </div>
+
+  <div class="card">
+   <h3>《关于新型蚊子扫描方法的研究》</h3>
+   <p>生物观察与技术设想。</p>
+  </div>
+ </div>
+</section>
+
+<section id="record">
+ <div class="kicker">04 / RESEARCH RECORD</div>
+ <h2>研究记录</h2>
+
+ <div class="timeline">
+  <div>
+   <h3>2026年11月17日</h3>
+   <p>原稿记载：提出氧气燃烧论。</p>
+  </div>
+
+  <div>
+   <h3>后续研究</h3>
+   <p>对相关公式和催化剂设想进行反思。</p>
+  </div>
+ </div>
+
+ <div class="notice">
+  本档案依据用户提供的《氧气燃烧论》整理。
+  原稿中的奖项、合作机构和实验验证情况尚未独立核实。
+ </div>
+</section>
+
+<section>
+ <div class="kicker">05 / MESSAGE</div>
+ <h2>保持好奇，持续探索</h2>
+ <p class="description">
+ 每一次提问都是探索的开始，
+ 每一次验证都让理解更加接近事实。
+ </p>
+</section>
+
+</main>
+
+<footer>
+ © 2026 王睿成个人科学家档案
+</footer>
+
+</body>
+</html>
